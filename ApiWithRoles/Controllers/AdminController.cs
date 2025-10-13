@@ -12,7 +12,8 @@ public class AdminController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok("You have accessed the Admin controller");
+        return Ok("You have accessed the Admin controller, ok");
     }
+    
    
 }
