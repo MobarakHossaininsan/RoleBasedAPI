@@ -1,4 +1,4 @@
-namespace ApiWithRoles.Models;
+namespace ApiWithRoles.DTOs;
 
 public class UserRole
 {

@@ -1,11 +1,14 @@
 using System.Text;
 using ApiWithRoles.Data;
+using ApiWithRoles.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 
 // Add services to the container.
 
@@ -54,6 +57,8 @@ builder.Services.AddAuthorization(options =>
     options.AddPolicy("UserPolicy",policy => policy.RequireRole("User"));
 });
 
+builder.Services.AddScoped<UserServices>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -62,6 +67,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 
 app.UseHttpsRedirection();
 

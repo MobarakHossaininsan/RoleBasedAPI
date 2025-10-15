@@ -238,3 +238,4 @@ C:\Users\ami alu\RiderProjects\ApiWithRoles\ApiWithRoles\obj\Debug\net8.0\refint
 C:\Users\ami alu\RiderProjects\ApiWithRoles\ApiWithRoles\obj\Debug\net8.0\ApiWithRoles.pdb
 C:\Users\ami alu\RiderProjects\ApiWithRoles\ApiWithRoles\obj\Debug\net8.0\ApiWithRoles.genruntimeconfig.cache
 C:\Users\ami alu\RiderProjects\ApiWithRoles\ApiWithRoles\obj\Debug\net8.0\ref\ApiWithRoles.dll
+C:\Users\ami alu\RiderProjects\ApiWithRoles\ApiWithRoles\obj\Debug\net8.0\ApiWithRoles.sourcelink.json

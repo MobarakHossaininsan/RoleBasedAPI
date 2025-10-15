@@ -14,6 +14,5 @@ public class AdminController : ControllerBase
     {
         return Ok("You have accessed the Admin controller, ok");
     }
-    
    
 }
